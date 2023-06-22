@@ -1,0 +1,108 @@
+
+.tecno-formacion{
+    width: 75%;
+}
+
+/* TECNOLOGIAS */
+.ctn-InfoTecnologias{
+background-color:  rgba(255, 255, 255, 0.9);
+    color: #43549A ;
+    box-shadow: 2px 2px 3px black;
+    transition: all 0.2s ease;
+}
+.ctn-InfoTecnologias:hover{
+    box-shadow: 4px 4px 10px black;
+}
+
+.container-tecnologias div img{
+    width: 33%;
+}
+/* CERTIFICACIONES */
+
+.ctn-InfoFormacion{
+    background-color:  rgba(255, 255, 255, 0.9);
+    color: #43549A ;
+    box-shadow: 2px 2px 3px black;
+    transition: all 0.2s ease;
+}
+.ctn-InfoFormacion:hover{
+    box-shadow: 4px 4px 10px black;
+}
+.btn-verCertificaciones{
+    margin-top: 15px;
+    font-size: 1.1rem;
+    width: 23%;
+    border: 2px solid #43549A;
+        background-color:#6c87f7; 
+        color: white;
+}
+.btn-verCertificaciones:hover{
+    background-color: #43549A;
+    color: white;
+}
+
+.container-certificaciones, .container-tecnologias{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+.container-certificaciones div, .container-tecnologias div{
+    width: 125px;
+}
+.container-certificaciones div img{
+    width: 30%;
+}.container-certificaciones div, .container-tecnologias div{
+    margin: 4px;
+}   
+@media (max-width:992px) {
+
+    .container-certificaciones div, .container-tecnologias div{
+        width: 100px;
+    }
+    .btn-verCertificaciones{
+        width: 50%;
+        font-size: 0.9rem;
+    }
+    
+}
+@media (max-width:768px) {
+    .container-certificaciones div, .container-tecnologias div{
+        width: 90px;
+    }
+}
+@media (max-width:576px) {
+    .tecno-formacion{
+        width: 90%;
+    }
+}
+
+
+    
+/* 
+@media (min-width:992px) {
+    .container-certificaciones{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        justify-content: space-around;
+
+    }
+    .container-certificaciones div{
+        background-color: aqua;
+    }
+    .container-certificaciones div img{
+        width: 30%;
+    }
+    .container-certificaciones div a{
+        font-size: 0.9em;
+    }
+}
+@media (min-width:768px) {
+    .container-certificaciones{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container-certificaciones div{
+        background-color: red;
+    }
+
+} */
