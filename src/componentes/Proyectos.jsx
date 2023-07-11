@@ -11,16 +11,10 @@ export const Proyectos = () => {
     
     <article className='articleProyectos rounded-3 p-3 pt-4 my-5  '>
         
-        <div className='w-100  cards-container'>
         {infoCard.map(({titulo,imagen,descripcion, linkGithub, linkDemo})=>(
-          <Card img={imagen} title={titulo} descripcion={descripcion} linkDemo={linkDemo} linkGithub={linkGithub}/>
+          <Card key={imagen} img={imagen} title={titulo} descripcion={descripcion} linkDemo={linkDemo} linkGithub={linkGithub}/>
         ))}
 
-        
-        {/* <Card/> */}
-        </div>
-        {/* <button className='btn-verProyecto  d-block mx-auto btn rounded-3 verMas-btn'>Ver más proyectos</button> */}
-        
     </article>
     </section>
   )

@@ -14,7 +14,7 @@ export const Presentacion = () => {
       <div className=' col-sm-6 soyJuan'>
         <h1 >¡Hola, soy Juan!</h1>
         <h2>Front-End Developer</h2>
-        <p>¡Estoy en busca de ideas y proyectos creativos!  </p>
+        <p>¡Estoy en busca de aprendizaje y proyectos nuevos!  </p>
         
         <div className='containerCv'>
           <a href='https://drive.google.com/file/d/1lxYI2bB_-PaiuYS_2pR9pDWer28izkxA/view?usp=sharing' className='a-btn btn' download target='blank'>Descargar CV</a>
