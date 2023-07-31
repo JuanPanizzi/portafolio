@@ -1,6 +1,7 @@
 import hp from '../recursos/Hp-proyect.GIF'
 import feriados from '../recursos/feriados.GIF'
 import memoTest from '../recursos/memo-test.png'
+import juego from '../recursos/juego.png'
 
 export const infoCard = [{
     titulo: 'Caracteres por Minuto',
@@ -22,6 +23,13 @@ export const infoCard = [{
     descripcion: 'Juego para practicar la memoria con temática de dibujitos animados de los años noventa. Hecho con React y Bootstrap',
     linkGithub: 'https://github.com/JuanPanizzi/memo-test.git',
     linkDemo: 'https://memo-test-khaki.vercel.app/'
+},
+{
+    titulo: 'Dev-Game',
+    imagen: juego,
+    descripcion: 'Juego para sortear obstáculos basados en eerrores de diseño UI y UX y divertirse un ratito. Hecho con Vite, React y Css',
+    linkGithub: 'https://github.com/JuanPanizzi/dev-game.git',
+    linkDemo: 'https://dev-game.vercel.app/'
 }
 
 ] 

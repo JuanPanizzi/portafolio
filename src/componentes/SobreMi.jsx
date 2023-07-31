@@ -12,9 +12,9 @@ export const SobreMi = () => {
         </div>
         <div className='ctn-InfoSobreMi '>
           <h1>¿Quién soy?</h1>
-          <p>Soy Juan Panizzi, un desarrollador front-end de la Patagonia Argentina con ganas de incorporarse a un equipo de trabajo!
+          <p>Soy Juan Panizzi, un desarrollador front-end de la Patagonia Argentina con ganas de incorporarse a un equipo de trabajo.
             Tengo 27 años y me gusta investigar y aprender tecnologías nuevas que me permitan mejorar en el desarrollo web!
-            ¡Una de mis metas es poder se full-stack algún día!
+            ¡Una de mis metas es poder ser full-stack algún día!
             ¡En mi tiempo libre me gusta relacionarme con gente y explorar lugares nuevos!
           </p>
           <a href="#tit-contactame" className='btn btn-contactame'>

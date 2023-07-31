@@ -12,9 +12,8 @@ export const Presentacion = () => {
 
       <article className='articlePresentacion row justify-content-center align-items-center rounded-3 p-3 py-5'>
       <div className=' col-sm-6 soyJuan'>
-        <h1 >¡Hola, soy Juan!</h1>
+        <h1 >Juan Panizzi</h1>
         <h2>Front-End Developer</h2>
-        <p>¡Estoy en busca de aprendizaje y proyectos nuevos!  </p>
         
         <div className='containerCv'>
           <a href='https://drive.google.com/file/d/1lxYI2bB_-PaiuYS_2pR9pDWer28izkxA/view?usp=sharing' className='a-btn btn' download target='blank'>Descargar CV</a>
