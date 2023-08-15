@@ -29,7 +29,7 @@ export const infoCard = [{
 {
     titulo: 'Dev-Game',
     imagen: juego,
-    descripcion: 'Juego para sortear obstáculos basados en errores de diseño UI y UX y divertirse un ratito. Realizado con React, Vite y Css.',
+    descripcion: 'Juego para sortear obstáculos basados en eerrores de diseño UI y UX y divertirse un ratito. Hecho con Vite, React y Css.',
     linkGithub: 'https://github.com/JuanPanizzi/dev-game.git',
     linkDemo: 'https://dev-game.vercel.app/'
 },

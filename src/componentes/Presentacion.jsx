@@ -16,8 +16,8 @@ export const Presentacion = () => {
         <h2>Front-End Developer</h2>
         
         <div className='containerCv'>
-          <a href='https://drive.google.com/file/d/1lxYI2bB_-PaiuYS_2pR9pDWer28izkxA/view?usp=sharing' className='a-btn btn' download target='blank'>Descargar CV</a>
-          
+          <a href='https://drive.google.com/file/d/1yaB15_RBauI3xrpLy2jL-_mel2F8yHKG/view?usp=sharing' className='a-btn btn' download target='blank'>Descargar CV</a>
+        
           <a href="https://www.linkedin.com/in/juan-panizzi-768522105/" target='blank'>
           <img src={ln} alt="linkedin" className='logoPresentacion m-3'/>
           </a>
