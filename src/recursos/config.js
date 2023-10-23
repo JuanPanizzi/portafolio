@@ -7,7 +7,6 @@ import superAwp from '../recursos/awp-capture.png'
 
 
 export const infoCard = [
-
     {
         titulo: 'App de Feriados',
         imagen: feriados,
