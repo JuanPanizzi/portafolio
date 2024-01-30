@@ -13,10 +13,10 @@ export const Presentacion = () => {
       <article className='articlePresentacion row justify-content-center align-items-center rounded-3 p-3 py-5'>
       <div className=' col-sm-6 soyJuan'>
         <h1 >Juan Panizzi</h1>
-        <h2>Front-End Developer</h2>
+        <h2>Desarrollador Full Stack</h2>
         
         <div className='containerCv'>
-          <a href='https://drive.google.com/file/d/1yaB15_RBauI3xrpLy2jL-_mel2F8yHKG/view?usp=sharing' className='a-btn btn' download target='blank'>Descargar CV</a>
+          <a href='https://drive.google.com/file/d/1Hc9fT4A8y8XLxc9_WxXe4c5bcbLyB58D/view?usp=sharing' className='a-btn btn' download target='blank'>Descargar CV</a>
         
           <a href="https://www.linkedin.com/in/juan-panizzi-768522105/" target='blank'>
           <img src={ln} alt="linkedin" className='logoPresentacion m-3'/>

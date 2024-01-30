@@ -12,9 +12,10 @@ export const SobreMi = () => {
         </div>
         <div className='ctn-InfoSobreMi '>
           <h1>¿Quién soy?</h1>
-          <p>Soy Juan Panizzi, un desarrollador front-end de la Patagonia Argentina con ganas de incorporarse a un equipo de trabajo.
-            Tengo 27 años y me gusta investigar y aprender tecnologías nuevas que me permitan mejorar en el desarrollo web.
-            En mi tiempo libre me gusta relacionarme con gente y explorar lugares nuevos.
+          <p>Soy Juan Panizzi, un desarrollador Full Stack de la Patagonia Argentina con ganas de incorporarse a un equipo de trabajo.
+            Tengo experiencia en múltiples trabajos en los que se destacaban el trabajo en equipo y la diversidad de las tareas, 
+            por lo cual he desarrollado una buena adaptabilidad y facilidad para integrarme a equipos nuevos.
+            Tengo 27 años y siempre me encuentro aprendiendo e investigando tecnologías nuevas para mejorar en mi profesión.
           </p>
           <a href="#tit-contactame" className='btn btn-contactame'>
             ¡Contáctame!

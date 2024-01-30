@@ -8,6 +8,11 @@ import sass from '../recursos/Tecnologias/sass.png'
 import bootstrap from '../recursos/Tecnologias/bootstrap.png'
 import react from '../recursos/Tecnologias/react.png'
 import edIT from '../recursos/EdIT.jpg'
+import mongo from '../recursos/Tecnologias/mongo.svg'
+import nest from '../recursos/Tecnologias/Nestjs.png'
+import git from '../recursos/Tecnologias/Git.png'
+import node from '../recursos/Tecnologias/Node.png'
+import ts from '../recursos/Tecnologias/typescript.svg'
 
 export const Tecno_Formacion = () => {
   return (
@@ -21,28 +26,55 @@ export const Tecno_Formacion = () => {
         <h1>Tecnologías</h1>
         <p>¡Estas son las tecnologías que aprendí en los cursos que realicé!</p>
 
-        <div className='  w-100 container-tecnologias'>
+        <div className='w-100 container-tecnologias'>
 
+        <div>
+        <img src={nest} alt="Nest" />
+        <p>Nest JS</p>
+      </div>
+        <div>
+            <img src={mongo} alt="MongoDB" />
+            <p>Mongo DB</p>
+          </div>
+          <div>
+            <img src={node} alt="NodeJS" />
+            <p>Node JS</p>
+          </div>
           <div>
             <img src={react} alt="react" />
+            <p>React JS</p>
+          </div>
+          <div>
+            <img src={ts} alt="Typescript" />
+            <p>Typescript</p>
+          </div>
+          <div>
+            <img src={git} alt="git" />
+            <p>GIT</p>
           </div>
           <div>
             <img src={bootstrap} alt="bootstrap" />
+            <p>Bootstrap</p>
           </div>
           <div>
             <img src={sass} alt="sass" />
+            Sass
           </div>
           <div>
             <img src={less} alt="less" />
+            Less
           </div>
           <div>
             <img src={javascript} alt="javascript" />
+            JavaScript
           </div>
           <div>
             <img src={css} alt="css" />
+            Css
           </div>
           <div>
             <img src={html5} alt="html" />
+            Html
           </div>
 
         </div>

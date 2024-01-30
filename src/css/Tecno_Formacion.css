@@ -17,6 +17,16 @@ background-color:  rgba(255, 255, 255, 0.9);
 .container-tecnologias div img{
     width: 33%;
 }
+.container-tecnologias div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-tecnologias div p{
+    margin-top: 5px;
+    margin-bottom: auto;
+}
 /* CERTIFICACIONES */
 
 .ctn-InfoFormacion{
