@@ -12,7 +12,7 @@ export const infoCard = [
         imagen: feriados,
         descripcion: 'App para ver los próximos feriados de Argentina, y también los que pasaron. Realizado con React, Sass y Css.',
         linkGithub: 'https://github.com/JuanPanizzi/app-feriados.git',
-        linkDemo: 'https://zippy-basbousa-85e837.netlify.app/'
+        linkDemo: 'https://app-feriados.vercel.app/'
     }, 
     {
         titulo: 'AWP para el Super Mercado',
