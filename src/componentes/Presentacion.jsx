@@ -3,6 +3,7 @@ import dev from './dev.svg'
 import ln from '../recursos/LinkediBlack.png'
 import github from '../recursos/Github.png'
 import '../css/Presentacion.css'
+
 export const Presentacion = () => {
   return (
 

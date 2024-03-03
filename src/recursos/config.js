@@ -4,9 +4,16 @@ import memoTest from '../recursos/memo-test.png'
 import juego from '../recursos/juego.png'
 import buscadorPeliculas from '../recursos/buscador-peliculas.png'
 import superAwp from '../recursos/awp-capture.png'
-
+import fumar from '../recursos/Fumar.png'
 
 export const infoCard = [
+    {
+        titulo: 'Dejar de Fumar',
+        imagen: fumar,
+        descripcion: 'App con utilidades para ayudar a al gente a dejar de fumar. Realizado con Nestjs, Typescript, MongoDB, React y Tailwind.',
+        linkGithub: 'https://github.com/JuanPanizzi/No-Fumar',
+        linkDemo: 'https://no-fumar-app.onrender.com/'
+    },
     {
         titulo: 'App de Feriados',
         imagen: feriados,
